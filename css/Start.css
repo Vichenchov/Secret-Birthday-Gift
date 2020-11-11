@@ -1,0 +1,35 @@
+body {
+  padding: 10rem;
+  position: relative;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.inputForm {
+  width: 25rem;
+  margin: 0 auto 0 auto;
+  margin-bottom: 2rem;
+}
+
+#inputLGEx {
+  text-align: center;
+}
+
+.rolling-eyes {
+  display: block;
+  margin: 0 auto 0 auto;
+  margin-bottom: 3.5rem;
+}
+
+#hint {
+  display: block;
+  text-align: center;
+}
