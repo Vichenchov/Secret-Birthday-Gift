@@ -1,6 +1,8 @@
 body {
-  padding: 10rem;
+  padding: 160px 75px;
+  background-color: #66bfbf;
   position: relative;
+  overflow: hidden;
 }
 
 h3 {
@@ -13,14 +15,27 @@ h3 {
   margin-bottom: 2rem;
 }
 
-.inputForm {
-  width: 25rem;
-  margin: 0 auto 0 auto;
-  margin-bottom: 2rem;
+.main-div {
+  position: relative;
+  height: 100%;
+  width: 100%;
 }
 
-#inputLGEx {
+#button {
+  display: block;
+  margin: 0 auto 2rem auto;
+}
+
+/* password input */
+.form-control {
+  width: 35%;
+  margin: 0 auto 2rem auto;
+  border-width: 0 0 medium 0;
+  border-color: #f8f3d4;
+  border-radius: 0;
   text-align: center;
+  background-color: #66bfbf;
+  ;
 }
 
 .rolling-eyes {
@@ -32,4 +47,149 @@ h3 {
 #hint {
   display: block;
   text-align: center;
+  margin-top: 3rem;
+}
+
+/* responsivene */
+@media (max-width:1092px) {
+  .img6L, .img10L, .img9L {
+    clip-path: circle(0);
+  }
+}
+
+@media (max-width: 360px) {
+  .title, .wrong-password {
+    display: block;
+    font-size: 20px;
+  }
+
+  .main-div {
+    position: relative;
+  }
+
+  .form-control {
+    width: 100%
+  }
+
+  .rolling-eyes {
+    width: 24px;
+    height: 24px;
+  }
+
+  .gift-img {
+    clip-path: circle(0);
+  }
+
+
+}
+
+/* removes defult bootstrap blue borders from input */
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+  outline: 0 !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+input[type="password"]:focus {
+  background-color: #66bfbf;
+  ;
+}
+
+input[type="password"]:hover,
+input[type="password"]:active,
+input[type="password"]:focus {
+  border-color: #f8f3d4;
+}
+
+/* gift images position */
+.gift-img {
+  display: block;
+  position: absolute;
+}
+
+.img9L {
+  transform: rotate(20deg);
+  bottom: 110%;
+  left: 60%;
+}
+
+.img6L {
+  transform: rotate(-30deg);
+  bottom: 50%;
+  left: 5%;
+}
+
+.img3L {
+  transform: rotate(10deg);
+  left: 75%;
+}
+
+.img10L {
+  transform: rotate(-45deg);
+  left: 20%;
+  top: 180%;
+}
+
+.img1S {
+  left: 35%;
+  top: 110%;
+  transform: rotate(10deg);
+}
+
+.img4S {
+  left: 95%;
+  bottom: 100%;
+  transform: rotate(-10deg);
+}
+
+.img7S {
+  left: 32%;
+  bottom: 130%;
+  transform: rotate(20deg);
+}
+
+.img11S {
+  top: 185%;
+  transform: rotate(-25deg);
+}
+
+.img8M {
+  left: 103%;
+  bottom: 20%;
+  transform: rotate(20deg);
+}
+
+.img5M {
+  left: 52%;
+  top: 170%;
+  transform: rotate(10deg);
+}
+
+.img2M {
+  left: 7%;
+  top: 110%;
+  transform: rotate(-15deg);
+}
+
+.img12M {
+  left: -8%;
+  bottom: 120%;
+  transform: rotate(15deg);
+}
+
+.img13M {
+  left: 80%;
+  bottom: 50%;
+  transform: rotate(10deg);
 }
