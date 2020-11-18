@@ -3,6 +3,7 @@ body {
   background-color: #66bfbf;
   position: relative;
   overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
@@ -13,6 +14,7 @@ h3 {
 .title {
   text-align: center;
   margin-bottom: 2rem;
+  color: #eaf6f6;
 }
 
 .main-div {
@@ -24,6 +26,12 @@ h3 {
 #button {
   display: block;
   margin: 0 auto 2rem auto;
+  color: #ffb833;
+  font-weight: bold;
+}
+#button:hover{
+  color: white;
+  background-color: #ffb833;
 }
 
 /* password input */
@@ -31,7 +39,7 @@ h3 {
   width: 35%;
   margin: 0 auto 2rem auto;
   border-width: 0 0 medium 0;
-  border-color: #f8f3d4;
+  border-color: #eaf6f6;
   border-radius: 0;
   text-align: center;
   background-color: #66bfbf;
@@ -52,7 +60,7 @@ h3 {
 
 /* responsivene */
 @media (max-width:1092px) {
-  .img6L, .img10L, .img9L {
+  .img6L, .img10L, .img9L, .img3L {
     clip-path: circle(0);
   }
 }
@@ -65,6 +73,7 @@ h3 {
 
   .main-div {
     position: relative;
+    margin: 0 auto 0 auto;
   }
 
   .form-control {
@@ -76,11 +85,32 @@ h3 {
     height: 24px;
   }
 
-  .gift-img {
+  .img6L, .img10L, .img9L, .img3L {}
+
+  .img10L {
+    clip-path: circle(100%);
+  }
+
+  .img5M, .img1S, .img13M {
     clip-path: circle(0);
   }
 
+  .img12M {
+    top: 120%;
+    margin-left: 210px;
+  }
 
+  .img4S {
+    margin-left: 40px;
+    top: 10px;
+  }
+
+  .img7S {
+    margin-left: 110px;
+  }
+  .title{
+    font-size: 25px;
+  }
 }
 
 /* removes defult bootstrap blue borders from input */
@@ -103,13 +133,19 @@ label:focus,
 
 input[type="password"]:focus {
   background-color: #66bfbf;
+  color:blue;
   ;
 }
-
+input[type="password"]{
+  color: #ffb833;
+  font-weight: bold;
+}
 input[type="password"]:hover,
 input[type="password"]:active,
 input[type="password"]:focus {
-  border-color: #f8f3d4;
+  border-color: #ffb833;
+  color: #eaf6f6;
+  caret-color: white;
 }
 
 /* gift images position */
@@ -138,7 +174,7 @@ input[type="password"]:focus {
 .img10L {
   transform: rotate(-45deg);
   left: 20%;
-  top: 180%;
+  top: 170%;
 }
 
 .img1S {
