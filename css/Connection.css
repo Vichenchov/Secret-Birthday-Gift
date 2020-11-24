@@ -1,3 +1,89 @@
-body{
+body {
   background-color: #66bfbf;
+  overflow: hidden;
+}
+
+.main {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 5rem;
+}
+
+.gift {
+  margin-right: 45px;
+  margin-left: 5px;
+}
+
+.img8 {
+  margin-right: 0px;
+}
+
+.hide {
+  clip-path: circle(0);
+}
+
+/* responsivenes */
+@media (max-width: 360px) {
+  .gift {
+    position: absolute;
+  }
+
+  .img1 {
+    top: 46%;
+    left: 46%;
+  }
+
+  .img3 {
+    top: 45%;
+    left: 45%;
+  }
+
+  .img4 {
+    top: 44%;
+    left: 44%;
+  }
+
+  .img5 {
+    top: 41%;
+    left: 41%;
+  }
+
+  .img6 {
+    top: 35%;
+    left: 35%;
+  }
+
+  .img7 {
+    top: 23%;
+    left: 18%;
+  }
+
+  .img8 {
+    clip-path: circle(0);
+  }
+}
+
+@media (max-width:765px) and (min-width:361px) {
+  .gift {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    clip-path: circle(0);
+  }
+
+  .img6 {
+    clip-path: circle(360px);
+  }
+
+  .img7 {
+    clip-path: circle(360px);
+  }
+
+  .img8 {
+    clip-path: circle(360px);
+  }
 }
