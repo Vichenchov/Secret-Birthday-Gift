@@ -27,7 +27,7 @@ body {
 }
 
 /* responsivenes */
-@media (max-width: 360px) {
+@media (max-width: 460px) {
   .gift {
     position: absolute;
   }
@@ -67,7 +67,7 @@ body {
   }
 }
 
-@media (max-width:765px) and (min-width:361px) {
+@media (max-width:765px) and (min-width:460px) {
   .gift {
     position: absolute;
     top: 15%;

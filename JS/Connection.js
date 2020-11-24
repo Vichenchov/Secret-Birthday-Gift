@@ -5,7 +5,7 @@ for (var i = 0; i < imgNum; i++) {
 }
 
 var y = 0;
-if ($(window).width() > 360) {
+if ($(window).width() > 460) {
   setInterval(function show() {
     document.querySelectorAll("img")[y].classList.remove("hide");
     y++;
@@ -17,7 +17,7 @@ if ($(window).width() > 360) {
 }
 
 y = 0;
-if ($(window).width() <= 360) {
+if ($(window).width() <= 460) {
   setInterval(function show() {
     if (y > 0) {
       document.querySelectorAll("img")[y - 1].classList.add("hide");

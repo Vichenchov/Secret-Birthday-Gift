@@ -29,7 +29,8 @@ h3 {
   color: #ffb833;
   font-weight: bold;
 }
-#button:hover{
+
+#button:hover {
   color: white;
   background-color: #ffb833;
 }
@@ -65,7 +66,7 @@ h3 {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 460px) {
   .title, .wrong-password {
     display: block;
     font-size: 20px;
@@ -108,7 +109,8 @@ h3 {
   .img7S {
     margin-left: 110px;
   }
-  .title{
+
+  .title {
     font-size: 25px;
   }
 }
@@ -133,13 +135,15 @@ label:focus,
 
 input[type="password"]:focus {
   background-color: #66bfbf;
-  color:blue;
+  color: blue;
   ;
 }
-input[type="password"]{
+
+input[type="password"] {
   color: #ffb833;
   font-weight: bold;
 }
+
 input[type="password"]:hover,
 input[type="password"]:active,
 input[type="password"]:focus {
