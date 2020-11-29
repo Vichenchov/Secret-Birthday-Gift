@@ -11,7 +11,7 @@ if ($(window).width() > 460) {
     y++;
     if (y === 7) {
       clearInterval(show);
-      window.location.replace("BirthdayBlessing.html");
+      // window.location.replace("BirthdayBlessing.html");
     }
   }, 400);
 }

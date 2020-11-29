@@ -1,0 +1,103 @@
+h1 {
+  text-align: center;
+  padding: 2%;
+  margin-top: 2%;
+}
+
+p {
+  text-align: right;
+}
+
+div {
+  margin: 2rem auto 8em auto;
+}
+
+.conntent {
+  padding: 1% 5%;
+}
+
+/* first paragraph content */
+.first {
+  text-align: center;
+}
+
+.first-p {
+  float: right;
+  margin-top: 8rem;
+  margin-left: 1%;
+}
+
+.img1 {
+  height: 25.3125rem;
+  width: 45rem;
+  text-align: right;
+}
+
+/* second paragraph conteמt */
+.second {
+  text-align: center;
+}
+
+.second-p {
+  float: left;
+  margin-right: 1%;
+  margin-top: 15rem;
+}
+
+.img2 {
+  width: 26.5625rem;
+  height: 37.5rem;
+}
+
+/* thired paragraph content */
+.thired {
+  position: relative;
+}
+
+.thired-p {
+  margin-top: 2.5rem;
+  float: right;
+  margin-left: 1%;
+}
+
+.img3 {
+  position: relative;
+}
+
+.img4 {
+  position: absolute;
+  left: 300px;
+  top: 200px;
+}
+
+.img3, .img4 {
+  height: 21rem;
+  width: 35rem;
+}
+
+/* forth paragraph content */
+.forth {
+  padding-top: 12rem;
+  position: relative;
+}
+
+.forth-p {
+  margin-right: 1%;
+  float: left;
+  margin-top: 30rem;
+}
+
+.img5 {
+  height: 21rem;
+  width: 35rem;
+  transform: rotate(-5deg);
+}
+
+.img6 {
+  width: 26.5625rem;
+  height: 37.5rem;
+  position: absolute;
+  right: 0;
+  top: 450px;
+  transform: rotate(10deg);
+}
