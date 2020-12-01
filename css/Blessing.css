@@ -1,3 +1,7 @@
+body {
+  background-color: #66bfbf;
+}
+
 h1 {
   text-align: center;
   padding: 2%;
@@ -12,6 +16,7 @@ div {
   margin: 2rem auto 8em auto;
 }
 
+
 .conntent {
   padding: 1% 5%;
 }
@@ -19,6 +24,8 @@ div {
 /* first paragraph content */
 .first {
   text-align: center;
+  position: relative;
+  margin-bottom: 40rem;
 }
 
 .first-p {
@@ -28,9 +35,12 @@ div {
 }
 
 .img1 {
-  height: 25.3125rem;
-  width: 45rem;
+  height: 24rem;
+  width: 40rem;
   text-align: right;
+  transform: rotate(-5deg);
+  position: absolute;
+  right: 35rem;
 }
 
 /* second paragraph conteמt */
@@ -47,6 +57,7 @@ div {
 .img2 {
   width: 26.5625rem;
   height: 37.5rem;
+  transform: rotate(5deg);
 }
 
 /* thired paragraph content */
@@ -62,22 +73,26 @@ div {
 
 .img3 {
   position: relative;
+  transform: rotate(-5deg);
 }
 
 .img4 {
   position: absolute;
   left: 300px;
   top: 200px;
+  transform: rotate(5deg);
 }
 
-.img3, .img4 {
+.img3,
+.img4 {
   height: 21rem;
   width: 35rem;
 }
 
 /* forth paragraph content */
 .forth {
-  padding-top: 12rem;
+  padding-top: 15rem;
+  padding-bottom: 30rem;
   position: relative;
 }
 
@@ -90,14 +105,50 @@ div {
 .img5 {
   height: 21rem;
   width: 35rem;
+  margin-top: 4rem;
+  position: absolute;
   transform: rotate(-5deg);
+  left: 23rem;
 }
 
 .img6 {
-  width: 26.5625rem;
-  height: 37.5rem;
+  width: 25.23rem;
+  height: 35.625rem;
   position: absolute;
   right: 0;
-  top: 450px;
+  left: 50rem;
+  top: 23rem;
   transform: rotate(10deg);
 }
+
+.button {
+  display: block;
+  position: absolute;
+  margin: 0 auto 2rem auto;
+  color: #ffb833;
+  font-weight: bold;
+  bottom: -13rem;
+  left: 16rem;
+}
+
+.button:hover {
+  color: white;
+  background-color: #ffb833;
+}
+
+
+
+/* // Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
