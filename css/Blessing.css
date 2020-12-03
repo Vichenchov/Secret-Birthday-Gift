@@ -1,11 +1,14 @@
 body {
-  background-color: #66bfbf;
+  background-color: #FFF8DC;
 }
 
 h1 {
   text-align: center;
   padding: 2%;
   margin-top: 2%;
+  color: #FFD700;
+  font-style: italic;
+  font-family: 'Pacifico', cursive;
 }
 
 p {
@@ -16,6 +19,9 @@ div {
   margin: 2rem auto 8em auto;
 }
 
+img {
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
 
 .conntent {
   padding: 1% 5%;
@@ -35,8 +41,8 @@ div {
 }
 
 .img1 {
-  height: 24rem;
-  width: 40rem;
+  height: 26.4rem;
+  width: 42rem;
   text-align: right;
   transform: rotate(-5deg);
   position: absolute;
@@ -78,37 +84,32 @@ div {
 
 .img4 {
   position: absolute;
-  left: 300px;
-  top: 200px;
+  left: 450px;
+  top: 225px;
   transform: rotate(5deg);
 }
 
-.img3,
+.img3 {
+  height: 22rem;
+  width: 36.5rem;
+}
+
 .img4 {
-  height: 21rem;
+  height: 23rem;
   width: 35rem;
 }
 
 /* forth paragraph content */
 .forth {
   padding-top: 15rem;
-  padding-bottom: 30rem;
+  padding-bottom: 35rem;
   position: relative;
 }
 
 .forth-p {
   margin-right: 1%;
   float: left;
-  margin-top: 30rem;
-}
-
-.img5 {
-  height: 21rem;
-  width: 35rem;
-  margin-top: 4rem;
-  position: absolute;
-  transform: rotate(-5deg);
-  left: 23rem;
+  margin-top: 20rem;
 }
 
 .img6 {
@@ -116,39 +117,207 @@ div {
   height: 35.625rem;
   position: absolute;
   right: 0;
-  left: 50rem;
+  left: 45rem;
   top: 23rem;
-  transform: rotate(10deg);
+  transform: rotate(5deg);
 }
 
 .button {
   display: block;
   position: absolute;
   margin: 0 auto 2rem auto;
-  color: #ffb833;
+  color: black;
+  background-color: #FFD700;
   font-weight: bold;
-  bottom: -13rem;
+  bottom: -1rem;
   left: 16rem;
 }
 
 .button:hover {
-  color: white;
-  background-color: #ffb833;
+  color: #FFD700;
+  background-color: white;
 }
 
+.fade {
+  opacity: 1;
+}
+
+/* images without description */
+
+.no-img {
+  height: 26.4rem;
+  width: 42rem;
+}
+
+.img-con {
+  padding-top: 20rem;
+}
+
+.p1,
+.p3,
+.p5,
+.p7,
+.p9,
+.p11,
+.p13 {
+  transform: rotate(-5deg);
+}
+
+.p2,
+.p4,
+.p6,
+.p8,
+.p10,
+.p12,
+.p14 {
+  transform: rotate(5deg);
+  margin-left: 40%;
+}
+
+.upside {
+  width: 26.23rem;
+  height: 35.625rem;
+}
+
+.rig {
+  margin-left: 50%;
+}
+
+.lft {
+  margin-left: 10%;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .first-p,
+  .second-p,
+  .thired-p {
+    float: none;
+    margin-bottom: 6rem;
+    margin-top: 3rem;
+  }
+
+  .forth-p{
+    margin-left: 10%;
+  }
+
+  .button{
+    margin-left: 5%;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .first {
+    margin-bottom: 7.5rem;
+  }
+
+  .img1,
+  .img3,
+  .img4 {
+    position: static;
+  }
+
+  .img3,
+  .img4 {
+    margin-left: 2rem;
+  }
 
 
-/* // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { ... }
+  .p2,
+  .p4,
+  .p14 {
+    margin-left: 0;
+  }
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) { ... }
+  .upside {
+    margin-left: 20%;
+  }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
+  .img6 {
+    left: 10rem;
+    top: -3rem;
+  }
+}
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... } */
+  p {
+    font-weight: 500;
+  }
+
+  .second-p {
+    margin-left: 20%;
+  }
+
+  .thired-p {
+    margin-right: 20%;
+    margin-bottom: 5%;
+  }
+
+  .img1 {
+    margin-top: 8%;
+    width: 350px;
+    height: auto;
+  }
+
+  .img3 {
+    width: 480px;
+    height: auto;
+  }
+
+  .img4 {
+    width: 450px;
+    height: auto;
+  }
+
+  .p2,
+  .p4,
+  .p14 {
+    margin-left: 20%;
+  }
+
+  .img6 {
+    height: 520px;
+    width: auto;
+    left: 37rem;
+    top: 25rem;
+  }
+
+  .forth {
+    padding-top: 11rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1280px) {
+  .img1 {
+    height: 23.8rem;
+    width: 34rem;
+  }
+
+  .img6 {
+    left: 40rem;
+  }
+
+  .p14 {
+    margin-left: 35%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1281px) and (max-width: 1380px) {
+  .img1 {
+    height: 26.4rem;
+    width: 37.8rem;
+  }
+}

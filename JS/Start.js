@@ -1,5 +1,5 @@
 // shows hint when hover
-$(function() {
+$(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
 
