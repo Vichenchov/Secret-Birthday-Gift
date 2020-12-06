@@ -6,14 +6,7 @@ body {
 
 #main {
   position: relative;
-  /* margin: auto; */
-  /* top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0; */
-  /* margin: 0 auto 0 auto; */
-  padding-top: 2.5%;
-  /* padding: 5rem; */
+  padding-top: 10%;
 }
 
 .gift {
@@ -31,10 +24,11 @@ body {
 
 /* responsivenes */
 @media (max-width: 576px) {
-  #main{
-    padding-top: 150%;
+  #main {
+    padding-top: 170%;
     padding-left: 100%;
   }
+
   .gift {
     position: absolute;
   }
@@ -74,42 +68,12 @@ body {
   }
 }
 
-
-
-/* @media (max-width:1440px) and (min-width:766px) {
-  .img8 {
-    clip-path: circle(0);
-  }
-
-  .gift {
-    margin-left: 35px;
-  }
-} */
-
-
-
-/* Extra small devices (portrait phones, less than 576px) */
-/* @media (max-width: 575.98px) {  }
-
-/* // Small devices (landscape phones, 576px and up) */
-/* @media (min-width: 576px) and (max-width: 767.98px) {  } */
-
-/* // Medium devices (tablets, 768px and up) */
-/* @media (min-width: 768px) and (max-width: 991.98px) { 
-  .img8,
-  .img7 {
-    clip-path: circle(0);
-  }
+@media (max-width:689px) and (min-width:576px) {
 
   #main {
-    padding-top: 30%;
+    padding-top: 200%;
   }
- } */
- @media (max-width:689px) and (min-width:576px) {
 
-  #main{
-    padding-top: 35%;
-  }
   .gift {
     position: absolute;
     top: 15%;
@@ -118,18 +82,21 @@ body {
   }
 
   .img6 {
-    clip-path: circle(360px);
+    clip-path: circle(0);
   }
 
   .img7 {
-    clip-path: circle(360px);
+    clip-path: circle(0);
   }
 
   .img8 {
-    clip-path: circle(360px);
+    clip-path: circle(0);
   }
 }
 
+.show{
+  clip-path: circle(360px);
+}
 
 @media (max-width:856px) and (min-width:690px) {
 
@@ -139,13 +106,11 @@ body {
   }
 
   #main {
-    padding-top: 25%;
+    padding-top: 30%;
   }
 }
 
-
-/* // Large devices (desktops, 992px and up) */
-@media (max-width: 1200px) and (min-width: 765px) {
+@media (max-width: 1380px) and (min-width: 765px) {
   .img8 {
     clip-path: circle(0);
   }
@@ -154,5 +119,3 @@ body {
     padding-top: 15%;
   }
 }
-
-/* Extra large devices (large desktops, 1200px and up) */

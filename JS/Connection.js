@@ -5,13 +5,24 @@ var imgNum = document.querySelectorAll("img").length;
 // }
 
 var y = 0;
-if ($(window).width() > 576) {
+if ($(window).width() > 689) {
   setInterval(function show() {
     document.querySelectorAll("img")[y].classList.remove("hide");
     y++;
     if (y === 7) {
       clearInterval(show);
-      // window.location.replace("BirthdayBlessing.html");
+      window.location.replace("BirthdayBlessing.html");
+    }
+  }, 400);
+}
+
+if ($(window).width() > 576 && ($(window).width() < 689)) { 
+  setInterval(function show() {
+    document.querySelectorAll("img")[y].classList.add("show");
+    y++;
+    if (y === 7) {
+      clearInterval(show);
+      window.location.replace("BirthdayBlessing.html");
     }
   }, 400);
 }
@@ -26,7 +37,7 @@ if ($(window).width() <= 576) {
     y++;
     if (y === 7) {
       clearInterval(show);
-      // window.location.replace("BirthdayBlessing.html");
+      window.location.replace("BirthdayBlessing.html");
     }
   }, 400);
 }
