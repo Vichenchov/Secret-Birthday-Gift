@@ -2,7 +2,7 @@ body {
   padding: 160px 75px;
   background-color: #66bfbf;
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
 }
 

@@ -1,16 +1,19 @@
 body {
   background-color: #66bfbf;
   overflow: hidden;
+  text-align: center;
 }
 
-.main {
-  position: absolute;
-  margin: auto;
-  top: 0;
+#main {
+  position: relative;
+  /* margin: auto; */
+  /* top: 0;
   right: 0;
   bottom: 0;
-  left: 0;
-  padding: 5rem;
+  left: 0; */
+  /* margin: 0 auto 0 auto; */
+  padding-top: 2.5%;
+  /* padding: 5rem; */
 }
 
 .gift {
@@ -27,7 +30,11 @@ body {
 }
 
 /* responsivenes */
-@media (max-width: 460px) {
+@media (max-width: 576px) {
+  #main{
+    padding-top: 150%;
+    padding-left: 100%;
+  }
   .gift {
     position: absolute;
   }
@@ -67,11 +74,46 @@ body {
   }
 }
 
-@media (max-width:765px) and (min-width:460px) {
+
+
+/* @media (max-width:1440px) and (min-width:766px) {
+  .img8 {
+    clip-path: circle(0);
+  }
+
+  .gift {
+    margin-left: 35px;
+  }
+} */
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* @media (max-width: 575.98px) {  }
+
+/* // Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) and (max-width: 767.98px) {  } */
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) and (max-width: 991.98px) { 
+  .img8,
+  .img7 {
+    clip-path: circle(0);
+  }
+
+  #main {
+    padding-top: 30%;
+  }
+ } */
+ @media (max-width:689px) and (min-width:576px) {
+
+  #main{
+    padding-top: 35%;
+  }
   .gift {
     position: absolute;
     top: 15%;
-    left: 20%;
+    left: 13%;
     clip-path: circle(0);
   }
 
@@ -87,33 +129,30 @@ body {
     clip-path: circle(360px);
   }
 }
-@media (max-width:1440px) and (min-width:766px) {
+
+
+@media (max-width:856px) and (min-width:690px) {
+
+  .img8,
+  .img7 {
+    clip-path: circle(0);
+  }
+
+  #main {
+    padding-top: 25%;
+  }
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 1200px) and (min-width: 765px) {
   .img8 {
     clip-path: circle(0);
   }
-  .gift{
-    margin-left: 35px;
+
+  #main {
+    padding-top: 15%;
   }
 }
-@media (max-width:1060px) and (min-width:766px) {
-  .img8,.img7 {
-    clip-path: circle(0);
-  }
-  .gift{
-    margin-left: 25px;
-  }
-}
-/* // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { ... }
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) { ... }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... } */
+/* Extra large devices (large desktops, 1200px and up) */
