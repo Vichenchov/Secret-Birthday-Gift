@@ -10,7 +10,7 @@ document.querySelector("button").addEventListener("click", function() {
   var password = document.querySelector('input').value;
   if (password === "432017") {
     // window.location.replace("ConnectionPage.html");
-    window.location.replace("BirthdayBlessing.html");
+    window.location.replace("ConnectionPage.html");
   } else {
     var rndNamber = Math.floor(Math.random() * 3) + 1;
     switch (rndNamber) {
