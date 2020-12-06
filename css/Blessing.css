@@ -398,7 +398,7 @@ img {
   .forth {
     padding-bottom: 0;
     margin-bottom: 2%;
-    padding-top: 10rem;
+    padding-top: 1rem;
     text-align: center;
   }
 
@@ -409,7 +409,7 @@ img {
   .forth-p {
     margin-right: 0;
     margin-bottom: 1rem;
-    margin-top: 10rem;
+    margin-top: 1rem;
   }
 
   .button {
