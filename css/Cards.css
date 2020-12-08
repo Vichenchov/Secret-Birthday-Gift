@@ -1,0 +1,31 @@
+body{
+    margin-left: 2rem;
+}
+
+h1{
+    text-align: center;
+    padding: 2rem;
+}
+    
+
+.container{
+    padding-right: 0;
+    text-align: center;
+}
+
+.col-sm{
+    padding: 0;
+}
+
+.card{
+    width: 19rem;
+    margin-right: 1rem;
+}
+
+.mrg{
+    margin: 1rem 0 1rem;
+}
+
+.no-mrg{
+    margin-bottom: 1rem;
+}
