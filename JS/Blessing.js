@@ -18,3 +18,8 @@ $(window).on("load", function () {
     });
   }).scroll(); //invoke scroll-handler on page-load
 });
+
+
+$("button").click(function(){
+  window.location.replace("CardsPage.html");
+});

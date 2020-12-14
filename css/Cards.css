@@ -1,31 +1,144 @@
-body{
+body {
     margin-left: 2rem;
+    justify-content: center;
+    background-color: #FFF8DC;
 }
 
-h1{
+h1 {
     text-align: center;
     padding: 2rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    color: #FFD700;
 }
-    
 
-.container{
+.card{
+    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+    border-color: #FFF8DC;
+}
+
+.container {
     padding-right: 0;
     text-align: center;
 }
 
-.col-sm{
+.col-sm {
     padding: 0;
 }
 
-.card{
+.card {
     width: 19rem;
     margin-right: 1rem;
 }
 
-.mrg{
+.mrg {
     margin: 1rem 0 1rem;
 }
 
-.no-mrg{
-    margin-bottom: 1rem;
+.no-mrg {
+    margin-bottom: 3rem;
+}
+
+
+@media (max-width: 992px) and (min-width: 768px) {
+    .mrg3 {
+        margin-top: 0;
+    }
+
+    .first {
+        text-align: center;
+    }
+    .no-mrg {
+        margin-bottom: 0;
+    }
+
+    .num-5,.num-6{
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 767px) and (min-width:550px) {
+    .mrg {
+        margin-top: 0;
+    }
+
+    .row{
+        margin-left: 17.5%;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .no-mrg {
+        margin-bottom: 1rem;
+    }
+
+    .num-6{
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width:550px) and (min-width:460px){
+    .row{
+        margin-left: 10%; 
+    }
+    h1{
+        font-size: 2rem;
+    }
+    .no-mrg {
+        margin-bottom: 1rem;
+    }
+    .num-6{
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width:460px){
+    .row{
+        margin-left: 5%;
+    }
+    .no-mrg {
+        margin-bottom: 1rem;
+    }
+    .num-6{
+        margin-bottom: 1rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+}
+
+.btn-1{
+    border-color: #ff0000;
+    background-color: #ff0000;
+}
+
+.btn-2{
+    border-color: #00ff00;
+    background-color: #00ff00;
+}
+
+.btn-3{
+    border-color: #0040ff;
+    background-color: #0040ff;
+}
+
+.btn-4{
+    border-color: #ffbf00;
+    background-color: #ffbf00;
+}
+
+.btn-5{
+    border-color: #ffff00;
+    background-color: #ffff00;
+}
+
+.btn-6{
+    border-color: #ff00ff;
+    background-color: #ff00ff;
+}
+
+.btn:hover{
+    border-color: #FFD700;
+    background-color: #FFD700;
+    color: black;
 }
