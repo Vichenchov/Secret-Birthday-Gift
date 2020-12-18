@@ -12,7 +12,14 @@ h1 {
     color: #FFD700;
 }
 
-.card{
+p{
+    font-family: 'Assistant', sans-serif;
+}
+
+h5:hover{
+    color: #FFD700;
+}
+.card {
     box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
     border-color: #FFF8DC;
 }
@@ -39,12 +46,17 @@ h1 {
     margin-bottom: 3rem;
 }
 
-video{
+video,
+.size {
     height: 14.156rem;
     width: 18.875rem;
 }
 
-
+.size-rozi {
+    height: 14.156rem;
+    width: 80%;
+    margin-left: 10%;
+}
 
 @media (max-width: 992px) and (min-width: 768px) {
     .mrg3 {
@@ -54,12 +66,18 @@ video{
     .first {
         text-align: center;
     }
+
     .no-mrg {
         margin-bottom: 0;
     }
 
-    .num-5,.num-6{
+    .num-5,
+    .num-6 {
         margin-bottom: 2rem;
+    }
+
+    .mrg3{
+        height: 29.781rem;
     }
 }
 
@@ -68,82 +86,90 @@ video{
         margin-top: 0;
     }
 
-    .row{
+    .row {
         margin-left: 17.5%;
     }
-    h1{
+
+    h1 {
         font-size: 3rem;
     }
+
     .no-mrg {
         margin-bottom: 1rem;
     }
 
-    .num-6{
+    .num-6 {
         margin-bottom: 1rem;
     }
 }
 
-@media (max-width:550px) and (min-width:460px){
-    .row{
-        margin-left: 10%; 
+@media (max-width:550px) and (min-width:460px) {
+    .row {
+        margin-left: 10%;
     }
-    h1{
+
+    h1 {
         font-size: 2rem;
     }
+
     .no-mrg {
         margin-bottom: 1rem;
     }
-    .num-6{
+
+    .num-6 {
         margin-bottom: 1rem;
     }
 }
 
-@media (max-width:460px){
-    .row{
+@media (max-width:460px) {
+    .row {
         margin-left: 5%;
     }
+
     .no-mrg {
         margin-bottom: 1rem;
     }
-    .num-6{
+
+    .num-6 {
         margin-bottom: 1rem;
     }
-    h1{
+
+    h1 {
         font-size: 2rem;
     }
 }
 
-.btn-1{
+.btn-1 {
     border-color: #ff0000;
     background-color: #ff0000;
 }
 
-.btn-2{
+.btn-2 {
     border-color: #00ff00;
     background-color: #00ff00;
 }
 
-.btn-3{
+.btn-3 {
     border-color: #0040ff;
     background-color: #0040ff;
 }
 
-.btn-4{
+.btn-4 {
     border-color: #ffbf00;
     background-color: #ffbf00;
 }
 
-.btn-5{
+.btn-5 {
     border-color: #ffff00;
     background-color: #ffff00;
 }
 
-.btn-6{
+.btn-6 {
     border-color: #ff00ff;
     background-color: #ff00ff;
 }
 
-.btn:hover{
+.btn:hover {
     border-color: #FFD700;
     background-color: #FFD700;
     color: black;

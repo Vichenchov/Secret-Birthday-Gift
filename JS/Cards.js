@@ -1,18 +1,15 @@
-// var vid = document.getElementById("vid"); 
+var vid = document.getElementById("vid-2");
+const video = document.getElementById("vid-3");
+var Italy = document.getElementById("vid-5");
 
-
-
-// function pauseVid() { 
-//   vid.pause(); 
-// } 
-
-// $(".btn").click(function() {
-//     var chosenButton = $(this).attr("id");
-//     var vid = "vid-" + chosenButton;
-//     console.log(vid);
-//     $("#" + vid).play();
-// });
-
-$(".btn-2").onclick = function(){
-    $("#vid-2").play();
+function playVid1() {
+    vid.play();
 }
+
+function playVid2() {
+    Italy.play();
+}
+
+video.addEventListener("mouseover", function () {
+    this.play();
+}); 

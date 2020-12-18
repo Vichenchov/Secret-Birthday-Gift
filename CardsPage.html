@@ -8,12 +8,20 @@
   <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;500&display=swap" rel="stylesheet">
   <!-- bootstrap css -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <!-- bootstrap JavaScript -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+  </script>
   <!-- Font Awesome Icons -->
   <script src="https://kit.fontawesome.com/685d267bff.js" crossorigin="anonymous"></script>
   <!-- My css -->
@@ -25,74 +33,85 @@
   <h1>I'm fucking love youuuuu...</h1>
   <div class="container first">
     <div class="row">
-      <div class="col-sm">
-        <div class="card mrg">
+      <div class="col-sm ">
+        <div class="card mrg c1">
           <img src="Images/CardsPicture/ILoveYou.JPG" class="card-img-top" alt="img">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary btn-1">Go somewhere</a>
+            <h5 class="card-title">I LOVE YOU</h5>
+            <p class="card-text">תראי אותך ואותי<br> באחת התמונות היפות שלנו לדעתי <br> אני אוהב אותך <br> ואת רק שלי
+            </p>
+            <a class="btn btn-primary btn-1">Go somewhere</a>
           </div>
         </div>
       </div>
 
-      <div class="col-sm">
-        <div class="card mrg">
+      <div class="col-sm ">
+        <div class="card mrg c2">
           <video class="card-img-top" id="vid-2" alt="img">
             <source type="video/mp4" src="Images/CardsPicture/Orang.MOV">
           </video>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary btn-2" id="2">Go somewhere</a>
+            <h5 class="card-title">ככה בא לי</h5>
+            <p class="card-text">את הסרטון הזה בחרתי <br> כי אני יודע שאותו את אוהבת <br> אני עם ראש תפוז <br> ועליי את
+              צוחקת</p>
+            <a class="btn btn-primary btn-2" id="2" onclick="playVid1()">Go somewhere</a>
           </div>
         </div>
       </div>
 
       <div class="col-sm">
         <div class="card mrg mrg3">
-          <img src="Images/Shovalit/IMG_8526.JPG" class="card-img-top" alt="img">
+          <video class="card-img-top" id="vid-3" alt="img" poster="Images/CardsPicture/Shovala.JPG" muted>
+            <source type="video/mp4" src="Images/CardsPicture/ShovalaVideo.MOV">
+          </video>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary btn-3">Go somewhere</a>
+            <h5 class="card-title">שובלה</h5>
+            <p class="card-text">שונאת שאני קורא לך שובל <br> אני חושב שאת ממש קטנה <br> אז תעברי על התמונה עם העכבר
+              ואקרא לך שובלה</p>
+            <a class="btn btn-primary btn-3">Go somewhere</a>
           </div>
         </div>
       </div>
-      <div class="col-sm">
-        <div class="card no-mrg">
-          <img src="Images/Shovalit/IMG_8526.JPG" class="card-img-top" alt="img">
+      <div class="col-sm ">
+        <div class="card no-mrg c4">
+          <img src="Images/CardsPicture/Rozi.jpg" class="card-img-top size-rozi" alt="img">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary btn-4">Go somewhere</a>
+            <h5 class="card-title">רוזי רוזלין</h5>
+            <p class="card-text">רוזי הפיצית כזאת חמודה <br> עושה פיפי בכל השכונה <br> כשהיא שומעת סיבוב היא מקשקשת <br>
+              אני אומר לך תוציאי אותה לבד, את אומרת איזה חי בסרט</p>
+            <a class="btn btn-primary btn-4">Go somewhere</a>
           </div>
         </div>
       </div>
-      <div class="col-sm">
-        <div class="card no-mrg  num-5">
-          <img src="Images/Shovalit/IMG_8526.JPG" class="card-img-top" alt="img">
+      <div class="col-sm ">
+        <div class="card no-mrg c5 num-5">
+          <video class="card-img-top" id="vid-5" alt="img">
+            <source type="video/mp4" src="Images/CardsPicture/Italy.mp4">
+          </video>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary btn-5">Go somewhere</a>
+            <h5 class="card-title">אוכל של סינים</h5>
+            <p class="card-text">?על הסרטון הזה מה את אומרת <br> ?אי שם באיטליה, זוכרת <br> בכל העולם עליי את צוחקת <br>
+              בפעם האלף לוותיקן איתי את הולכת <br> כל עוד זה איתך זה שווה את זה, גברת </p>
+            <a class="btn btn-primary btn-5" onclick="playVid2()">Go somewhere</a>
           </div>
         </div>
       </div>
       <div class="col-sm">
         <div class="card no-mrg num-6">
-          <img src="Images/Shovalit/IMG_8526.JPG" class="card-img-top" alt="img">
+          <img src="Images/CardsPicture/Food.JPG" onmouseover="this.src='Images/CardsPicture/Red.JPG'"
+            onmouseout="this.src='Images/CardsPicture/Food.JPG'" class="card-img-top size-rozi" id="pic-6" alt="img">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary btn-6">Go somewhere</a>
+            <h5 class="card-title">אוכל אוכלים</h5>
+            <p class="card-text">פה יש שולחן מלא מטעמים <br>מבריסל חזרנו עייפים<br>טוב אולי תעברי עם העכבר על
+              התמונה<br>כי לך מחכה הפתעה שהייתה אדומה<br>אבל איכשהו נהפכה לסגולה</p>
+            <a class="btn btn-primary btn-6">Go somewhere</a>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="JS/Cards.js" charset="utf-8"></script>
