@@ -58,6 +58,10 @@ video,
     margin-left: 10%;
 }
 
+.btn{
+    width: 125px;
+}
+
 @media (max-width: 992px) and (min-width: 768px) {
     .mrg3 {
         margin-top: 0;

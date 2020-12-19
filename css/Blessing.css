@@ -34,6 +34,12 @@ img {
   margin-bottom: 40rem;
 }
 
+audio{
+  position: absolute;
+  left: 65%;
+  bottom: 20%;
+}
+
 .first-p {
   float: right;
   margin-top: 8rem;
