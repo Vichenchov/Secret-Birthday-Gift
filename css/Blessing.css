@@ -13,6 +13,7 @@ h1 {
 
 p {
   text-align: right;
+  line-height: 2;
 }
 
 div {
@@ -40,6 +41,11 @@ audio{
   bottom: 20%;
 }
 
+.red{
+  color: red;
+  font-size: large;
+}
+
 .first-p {
   float: right;
   margin-top: 8rem;
@@ -63,7 +69,7 @@ audio{
 .second-p {
   float: left;
   margin-right: 1%;
-  margin-top: 15rem;
+  margin-top: 11rem;
 }
 
 .img2 {
@@ -91,7 +97,7 @@ audio{
 .img4 {
   position: absolute;
   left: 450px;
-  top: 225px;
+  top: 250px;
   transform: rotate(5deg);
 }
 
@@ -447,6 +453,7 @@ audio{
 
   .first-p {
     margin-top: -2%;
+    margin-right: 3rem;
   }
 
   .img1 {
@@ -458,6 +465,7 @@ audio{
 
   .second-p {
     margin-top: 15%;
+    margin-bottom: 2rem;
   }
 
   .img2 {
@@ -547,10 +555,10 @@ audio{
   .second-p,
   .thired-p {
     float: none;
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
     margin-top: 3rem;
   }
-
+  
   .forth-p {
     margin-left: 10%;
   }
@@ -561,6 +569,10 @@ audio{
 
   p {
     text-align: center;
+  }
+
+  #three{
+    margin-bottom: 1.5rem;
   }
 
   .first {
@@ -603,7 +615,7 @@ audio{
   .thired-p {
     float: none;
     margin-bottom: 6rem;
-    margin-top: 3rem;
+    margin-top: 0.5rem;
   }
 
   .forth-p {
@@ -659,6 +671,7 @@ audio{
 
   .second-p {
     margin-left: 20%;
+    margin-bottom: 2rem;
   }
 
   .thired-p {
